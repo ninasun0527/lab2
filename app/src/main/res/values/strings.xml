@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">LeaseOrRentHome</string>
+    <string name="available_homes">Available Homes</string>
+    <string name="checkout">Checkout</string>
     <string-array name="home_types">
         <item>Apartment</item>
         <item>Detached Home</item>
