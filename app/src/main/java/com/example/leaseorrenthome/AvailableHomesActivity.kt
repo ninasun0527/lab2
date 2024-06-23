@@ -67,11 +67,11 @@ class AvailableHomesActivity : AppCompatActivity() {
 
 
         val availableHomes = when (homeType) {
-            "Apartment" -> listOf("123 Main St - $200,000", "456 Elm St - $150,000")
-            "Detached Home" -> listOf("789 Oak St - $300,000", "101 Pine St - $350,000")
-            "Semi-Detached Home" -> listOf("202 Maple St - $250,000", "303 Cedar St - $275,000")
-            "Condominium Apartment" -> listOf("404 Birch St - $220,000", "505 Walnut St - $230,000")
-            "Townhouse" -> listOf("606 Ash St - $240,000", "707 Fir St - $260,000")
+            "Apartment" -> listOf("366 Main St - $720,000", "4865 Spadina Rd - $580,000","789 Riverview Cr - $725,000","1965 Kennedy Rd - $650,000")
+            "Detached Home" -> listOf("529 Bur Oak Rd - $2,300,000", "101 Pine St - $2,550,000","71 Upper Duke Cr - $2,021,000","9 McCowan Rd - $1,715,000")
+            "Semi-Detached Home" -> listOf("202 Maple St - $1,550,000", "303 Cedar St - $1,775,000","56 Jone St - $1,205,000")
+            "Condominium Apartment" -> listOf("404 Birch St - $820,000", "505 Walnut St - $730,000", "13 Berry Rd -$1,050,000")
+            "Townhouse" -> listOf("606 14th St - $1,240,000", "707 Warden Rd - $1,360,000")
             else -> listOf()
         }
 

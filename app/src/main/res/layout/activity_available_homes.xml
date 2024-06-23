@@ -16,16 +16,16 @@
     <ListView
         android:id="@+id/availableHomesList"
         android:layout_width="match_parent"
-        android:layout_height="701dp"
+        android:layout_height="566dp"
         android:layout_below="@id/availableHomesTitle"
         android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/visitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Book for Visit"
+        android:layout_width="160dp"
+        android:layout_height="72dp"
         android:layout_below="@id/availableHomesList"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="-8dp"
+        android:text="Book for Visit" />
 </RelativeLayout>
