@@ -21,10 +21,10 @@
         android:layout_marginTop="16dp" />
 
     <Button
-        android:id="@+id/checkoutButton"
+        android:id="@+id/visitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Checkout"
+        android:text="Book for Visit"
         android:layout_below="@id/availableHomesList"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
