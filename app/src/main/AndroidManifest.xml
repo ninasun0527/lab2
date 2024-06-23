@@ -13,6 +13,12 @@
         android:theme="@style/Theme.LeaseOrRentHome"
         tools:targetApi="31">
         <activity
+            android:name=".AvailableHomesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeTypeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

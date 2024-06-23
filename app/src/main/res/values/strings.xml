@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LeaseOrRentHome</string>
+    <string-array name="home_types">
+        <item>Apartment</item>
+        <item>Detached Home</item>
+        <item>Semi-Detached Home</item>
+        <item>Condominium Apartment</item>
+        <item>Townhouse</item>
+    </string-array>
+
 </resources>
