@@ -2,30 +2,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CheckoutActivity">
+    tools:context=".PaymentOptionActivity">
 
     <TextView
-        android:id="@+id/checkoutTitle"
+        android:id="@+id/paymentOptionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected Homes"
+        android:text="Select Payment Option"
         android:textSize="24sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
     <RadioGroup
-        android:id="@+id/selectedHomesRadioGroup"
+        android:id="@+id/paymentOptionsRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/checkoutTitle"
+        android:layout_below="@id/paymentOptionTitle"
         android:layout_marginTop="16dp"/>
 
     <Button
-        android:id="@+id/proceedToPaymentButton"
+        android:id="@+id/submitPaymentOptionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proceed to Payment"
-        android:layout_below="@id/selectedHomesRadioGroup"
+        android:text="Submit"
+        android:layout_below="@id/paymentOptionsRadioGroup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 </RelativeLayout>

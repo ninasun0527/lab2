@@ -22,10 +22,8 @@ class AvailableHomesActivity : AppCompatActivity() {
 
         val availableHomesList: ListView = findViewById(R.id.availableHomesList)
 
-        // Load homes based on the selected home type
         loadAvailableHomes(homeType)
 
-        // Assuming a button to proceed to checkout
         val checkoutButton: Button = findViewById(R.id.visitButton)
         checkoutButton.setOnClickListener {
             val selectedHomes = mutableListOf<String>()
@@ -67,7 +65,7 @@ class AvailableHomesActivity : AppCompatActivity() {
     private fun loadAvailableHomes(homeType: String?) {
         val availableHomesList: ListView = findViewById(R.id.availableHomesList)
 
-        // Mock data for available homes based on home type
+
         val availableHomes = when (homeType) {
             "Apartment" -> listOf("123 Main St - $200,000", "456 Elm St - $150,000")
             "Detached Home" -> listOf("789 Oak St - $300,000", "101 Pine St - $350,000")
